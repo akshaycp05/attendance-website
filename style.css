@@ -1,6 +1,32 @@
 body {
-  background-color: #f2f2f2;
   font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #f0f4f7;
+}
+
+h1, h2 {
   text-align: center;
-  margin: 40px;
+}
+
+input {
+  margin: 5px 10px 10px 0;
+  padding: 5px;
+  width: 150px;
+}
+
+button {
+  padding: 6px 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
 }
